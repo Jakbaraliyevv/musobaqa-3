@@ -1,27 +1,29 @@
 import "./navbar.scss";
 import logo from "../../../assets/logo.svg";
+import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
-    <section className="navbar">
+    <header className="navbar">
       <div className="container">
-        <div>
-          <div>
+        <div className="nav">
+          <div className="logo">
             <img src={logo} alt="" />
           </div>
-          <div className="navLink">
+          <nav className="navLink">
             <h3>Demos</h3>
             <h3>Features</h3>
             <h3>Pricing</h3>
             <h3>Contact</h3>
-          </div>
+          </nav>
 
           <div className="navBtn">
             <h3>Login</h3>
             <button>Sign up</button>
+            <FaBars className="bars" />
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 }
 

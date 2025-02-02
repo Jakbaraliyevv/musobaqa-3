@@ -2,10 +2,20 @@
   background-color: rgb(255, 248, 242);
 }
 
-.container > div {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  img {
+    width: 180px;
+  }
+}
+
+.bars {
+  display: none;
 }
 
 .navLink {
@@ -43,5 +53,84 @@
     font-size: 18px;
     line-height: 156%;
     color: #fff;
+  }
+}
+
+@media (max-width: 883px) {
+  .logo {
+    img {
+      width: 140px;
+    }
+  }
+
+  .navLink {
+    gap: 20px;
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  .navBtn {
+    gap: 20px;
+    > h3 {
+      font-size: 16px;
+    }
+
+    > button {
+      width: 103px;
+      height: 37px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 649px) {
+  .logo {
+    img {
+      width: 120px;
+    }
+  }
+
+  .navLink {
+    display: none;
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .navBtn {
+    > button {
+      display: none;
+    }
+  }
+
+  .bars {
+    display: block;
+    font-size: 22px !important;
+    color: #ff553e !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .navBtn {
+    > button {
+      width: 93px;
+      height: 32px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .navBtn {
+    > h3 {
+      display: none;
+    }
+
+    > button {
+      width: 79px;
+      height: 29px;
+      font-size: 12px;
+    }
   }
 }
