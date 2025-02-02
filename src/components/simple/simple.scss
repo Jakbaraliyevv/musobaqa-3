@@ -1,0 +1,150 @@
+.simpleTop {
+  h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 146%;
+    color: #18063c;
+    text-align: center;
+  }
+  > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #404040;
+    opacity: 0.8;
+  }
+
+  .switch1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 20px;
+    > p {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 117%;
+      color: #404040;
+    }
+
+    > img {
+      width: 49px;
+    }
+  }
+}
+
+.simpleBottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  margin-top: 120px;
+  .smpleCard {
+    border-radius: 90px;
+    width: 340px;
+    height: 440px;
+    border: 1px solid rgb(255, 85, 62);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    z-index: 29;
+
+    h3 {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 100%;
+      text-align: center;
+      color: #404040;
+    }
+    p {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 186%;
+      color: #ff553e;
+    }
+
+    sup {
+      font-weight: 500;
+      font-size: 18px;
+      color: #404040;
+    }
+    span {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 100%;
+      color: #404040;
+    }
+    sub {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 156%;
+      color: #404040;
+    }
+
+    button {
+      border-radius: 40px;
+      width: 180px;
+      height: 56px;
+      background: #ff553e;
+      font-weight: 500;
+      font-size: 15px;
+      color: #fff;
+    }
+  }
+
+  .card2 {
+    background-color: #ff553e !important;
+    button {
+      background-color: #fff !important;
+      color: #ff553e !important;
+    }
+
+    h3 {
+      color: #fff !important;
+    }
+    p {
+      color: #fff !important;
+    }
+
+    sup {
+      color: #fff !important;
+    }
+    span {
+      color: #fff !important;
+    }
+    sub {
+      color: #fff !important;
+    }
+  }
+
+  //
+
+  .nimadir {
+    position: relative;
+  }
+  .imgobsolute {
+    position: absolute;
+    right: -115px;
+    top: -88px;
+    z-index: -10;
+  }
+  .wektor {
+    position: relative;
+  }
+
+  .vector {
+    position: absolute;
+    right: -160px;
+    z-index: -11;
+  }
+
+  .qaychi{
+    position: absolute;
+    left: -100px;
+    bottom: 0;
+  }
+}
