@@ -1,0 +1,47 @@
+.navbar {
+  background-color: rgb(255, 248, 242);
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: #1c0e0d;
+    cursor: pointer;
+  }
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  > h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #ff553e;
+    cursor: pointer;
+  }
+
+  > button {
+    border-radius: 34px;
+    width: 133px;
+    height: 60px;
+    background: #ff553e;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+  }
+}
